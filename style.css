@@ -1,0 +1,71 @@
+/*  pegar a imagem transformar a largura para 70 % */
+
+img {  width: 70% ;
+}
+
+/* pegar e alinhar o body ao centro 
+botar a cor do fundo correspondente ao da imagem ( 32,32,32) */ 
+body { text-align: center;
+    background-color: #323232;
+                
+}
+
+
+/* editar o h1 = trocar cor pra cff00  e aumentar o tamanho dele pra 50 px */
+
+h1{
+  color: #cff000;
+  font-size: 50px;
+}
+
+/* aumentar a largura para 140 px e a altura de 30 px do imput  */
+
+input {
+width: 140px;
+height: 30px ;
+
+}
+/* criar um id para cada input e trocar a borda de cada um  para 3px solid e botar uma cor verde  cff00 para um real e um vermelho para dollar */
+
+#real{
+       border:3px solid #cff000;
+
+}
+
+
+#dolar{
+
+    border:3px solid red;
+}
+
+/*botar a tag P em negrito  e tamanho da fonte 25 px */
+
+p{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+
+/* aumentar o botao para a altura de  40 px e a largura para 150 px e tamanho da fonte 20 px 
+ adicionar a função cursor no botao pra quando passar o mouse mudar pra uma maozinha botar uma borda solida de 3px verde redonda de 10 px (radius) */
+/* botar o fundo cinza do botao  32 32 32  de cor branca i texto */
+
+
+
+button{
+ height: 40px ;
+ width: 150px;
+ font-size: 20px;
+ cursor: pointer;
+ border: 3px solid #cff000;
+ border-radius: 10px;
+ background-color: #323232 ;
+ color: white;
+}
+
+/* adicionar uma tag hover no button ( tem que ser separado) fazendo com que a cor do  texto fique cinza e o fundo fica verde */
+button:hover{
+ color: #323232;
+    background-color: #cff000;
+}
